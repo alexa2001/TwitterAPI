@@ -4,9 +4,9 @@ import os
 import json
 import twitter
 
-#API key: ife3mz9hr0XJxHNicgJO7OCzk
-#API secret key: di4xpD1vMpzz1NyrgSAfU3akrbAKiT0K1UJjnZzq3jVSASyE59
-#Bearer token: AAAAAAAAAAAAAAAAAAAAAJ0PRgEAAAAAhgKZSlYk2ukLTwMAQvvCV1SbshA%3DQpNXtJT0pAUG4KkltRgJByywn0oa9D0ytJiEBFDGQ8BS4TSWn0
+# API key: ife3mz9hr0XJxHNicgJO7OCzk
+# API secret key: di4xpD1vMpzz1NyrgSAfU3akrbAKiT0K1UJjnZzq3jVSASyE59
+# Bearer token: AAAAAAAAAAAAAAAAAAAAAJ0PRgEAAAAAhgKZSlYk2ukLTwMAQvvCV1SbshA%3DQpNXtJT0pAUG4KkltRgJByywn0oa9D0ytJiEBFDGQ8BS4TSWn0 # noqa
 
 KEY = 'ife3mz9hr0XJxHNicgJO7OCzk'
 SECRET_KEY = 'di4xpD1vMpzz1NyrgSAfU3akrbAKiT0K1UJjnZzq3jVSASyE59'
@@ -33,7 +33,7 @@ try:
     fetch_response = oauth.fetch_request_token(request_token_url)
 except ValueError:
     print(
-        "There may have been an issue with the consumer_key or consumer_secret you entered."
+        "There may have been an issue with the consumer_key or consumer_secret you entered."  # noqa
     )
 
 resource_owner_key = fetch_response.get("oauth_token")
@@ -75,7 +75,7 @@ response = oauth.post(
 
 if response.status_code != 200:
     raise Exception(
-        "Request returned an error: {} {}".format(response.status_code, response.text)
+        "Request returned an error: {} {}".format(response.status_code, response.text)  # noqa
     )
 
 print(response.status_code)
