@@ -79,3 +79,11 @@ if response.status_code != 200:
     )
 
 print(response.status_code)
+
+fields = "created_at,description,pinned_tweet_id"
+params = {"usernames": "TwitterDev", "user.fields": fields}
+
+response = oauth.get("https://api.twitter.com/labs/2/users/by?", params=params)
+print(response)
+print("Response status: %s" % response.status_code)
+print("Body: %s" % response.text)
