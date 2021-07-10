@@ -1,0 +1,35 @@
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/codio/workspace
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://enrico-camilla:3000/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | CRITICAL] received signal 15, stopping
+[NotebookApp | INFO] Shutting down 0 kernels
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/codio/workspace
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://enrico-camilla:3000/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | INFO] Kernel started: 5358ade5-6e87-4e39-92f7-ae912c80629b
+[NotebookApp | INFO] Adapting from protocol version 5.1 (kernel 5358ade5-6e87-4e39-92f7-ae912c80629b) to 5.3 (client).
+[NotebookApp | INFO] Starting buffering for 5358ade5-6e87-4e39-92f7-ae912c80629b:246fb13a104c4ae589ce9a66f51010dc
+[NotebookApp | WARNING] No nbgrader_config.py file found (rerun with --debug to see where nbgrader is looking)
+[NotebookApp | INFO] Loading the validate_assignment nbgrader serverextension
+[NotebookApp | INFO] Serving notebooks from local directory: /home/codio/workspace
+[NotebookApp | INFO] The Jupyter Notebook is running at:
+[NotebookApp | INFO] http://ballad-anita:3000/
+[NotebookApp | INFO] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[NotebookApp | WARNING] Notebook spotter.ipynb is not trusted
+[NotebookApp | INFO] Kernel started: 390272db-6846-4d83-9ba0-06d9b7a93aee
+[NotebookApp | INFO] Adapting from protocol version 5.1 (kernel 390272db-6846-4d83-9ba0-06d9b7a93aee) to 5.3 (client).
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
+[NotebookApp | INFO] Saving file at /spotter.ipynb
