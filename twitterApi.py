@@ -110,8 +110,8 @@ def main():
   verifier = get_authorization()
   tokens = get_access_token(verifier)
   myOauth = make_request (tokens)
-  getRequest(myOauth, "JoeBiden")
-  getRequest(myOauth, "TwitterDev")
+  getRequest(myOauth, "Malala")
+#   getRequest(myOauth, "TwitterDev")
   
 if __name__ == "__main__":
     main()
