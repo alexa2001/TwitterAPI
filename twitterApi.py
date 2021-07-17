@@ -102,7 +102,7 @@ def getRequest(myOauth, username):
   df = pd.DataFrame(columns = col_names)
   df.loc[len(df.index)] = [data['id'], data['created_at'], data['name'], data['username'], data['description']]
 
-  df.to_sql('twitter_sample', con=engine, if_exists='append', index=False)
+  df.to_sql('user_info', con=engine, if_exists='append', index=False)
 
 
 def main():
@@ -110,7 +110,7 @@ def main():
   verifier = get_authorization()
   tokens = get_access_token(verifier)
   myOauth = make_request (tokens)
-  getRequest(myOauth, "Malala")
+  getRequest(myOauth, "BarackObama")
 #   getRequest(myOauth, "TwitterDev")
   
 if __name__ == "__main__":
