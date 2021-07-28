@@ -14,6 +14,7 @@ SECRET_KEY = 'di4xpD1vMpzz1NyrgSAfU3akrbAKiT0K1UJjnZzq3jVSASyE59'
 
 id = "1413640311331598338"
 
+#testing
 
 # Get request token
 request_token_url = "https://api.twitter.com/oauth/request_token"
